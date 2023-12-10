@@ -1,5 +1,5 @@
 import openai
-openai.api_key = "bmsNd3v6lGjC6dSPKiRgT3BlbkFJt1Io9PMdwTKVSrtvTkRV"
+openai.api_key = "*********"  #Generate Yours own API Key Using Openai
 def get_apiresponse(prompt : str) -> str | None:
     text : str | None = None
     try:
